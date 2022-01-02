@@ -8,13 +8,23 @@ import ProTip from './ProTip';
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
+      {'Copyright © eaorkun'}{' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
+  );
+}
+
+function Signature() {
+  return (
+    <>
+      <Typography variant="body2" color="text.secondary" align="center">
+        {'Maintained and Developed by Eralp Orkun'}
+      </Typography>
+      <Typography sx={{mb: 3 }}variant="body2" color="text.secondary" align="center">
+          {'Last Edited: 1/2/2022'}
+      </Typography>
+    </>
   );
 }
 
@@ -22,10 +32,10 @@ export default function App() {
   return (
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Create React App example
+        <Typography variant="h4" component="h1" align='center' gutterBottom>
+          Eralp Orkun
         </Typography>
-        <ProTip />
+        <Signature />
         <Copyright />
       </Box>
     </Container>
