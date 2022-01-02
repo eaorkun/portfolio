@@ -1,42 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 import * as React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
+import ProTip from './ProTip';
 
-
-// <><head><meta name="viewport" content="initial-scale=1, width=device-width" /></head><>
-//   <link
-//     rel="stylesheet"
-//     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-//   <link
-//     rel="stylesheet"
-//     href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-// </></>
-
-function App() {
-
-  // return <Button variant="contained">Hello World</Button>;
-
-
+function Copyright() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Sick Edit to <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Typography variant="body2" color="text.secondary" align="center">
+      {'Copyright © '}
+      <Link color="inherit" href="https://mui.com/">
+        Your Website
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <Container maxWidth="sm">
+      <Box sx={{ my: 4 }}>
+        <Typography variant="h4" component="h1" gutterBottom>
+          Create React App example
+        </Typography>
+        <ProTip />
+        <Copyright />
+      </Box>
+    </Container>
+  );
+}
