@@ -4,6 +4,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
+import Navbar from './Navbar';
+import About from './About';
+import Name from './Name';
 
 function Copyright() {
   return (
@@ -30,14 +33,25 @@ function Signature() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" align='center' gutterBottom>
-          Eralp Orkun
-        </Typography>
+    <>
+      <Navbar />
+      <Container maxWidth="md">
+
+        <Name/>
+        <About/>
+        <Box sx={{ my: 4 }}>    
+
+
+
+        </Box>
+      </Container>
+      <Container maxWidth="sm">
         <Signature />
         <Copyright />
-      </Box>
-    </Container>
+      </Container>
+
+
+
+    </>
   );
 }
