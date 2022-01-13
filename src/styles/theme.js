@@ -1,11 +1,14 @@
 import { red, teal } from '@mui/material/colors';
 import { createTheme } from '@mui/material/styles';
 
+// https://coolors.co/
+
+
 // A custom theme for this app
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#fffdf0',
+      main: '#E5D1D0',
     },
     secondary: {
       main: '#19857b',
@@ -14,7 +17,7 @@ const theme = createTheme({
       main: red.A400,
     },
     background: {
-      default: '#fffdf0',
+      default: '#F5E4D7',
     }
   },  
 });
