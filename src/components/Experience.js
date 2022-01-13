@@ -194,7 +194,7 @@ export default function Experience() {
                 Summer 2019
                 </Box>
                 <Box component="span" sx={{ fontSize: 22 }}>
-                Science and Engineering Apprentice
+                Science and Engineering Apprenti
                 </Box>
             </Box>
         </Box>
