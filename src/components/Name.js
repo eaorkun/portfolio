@@ -11,12 +11,12 @@ export default function About() {
 
     <Container maxWidth="md">
 
-        <Typography variant="h3" align='center' sx={{ mt: 6, mb: 0 }}>
-        Hello there!            I'm Eralp Orkun
+        <Typography variant="h3" align='center' sx={{ mt: 6, mb: 2 }}>
+        Hi, I'm Eralp.
         </Typography>
         
         <Typography variant="h5" align='center' sx={{ mt: 0, mb: 6 }}>
-        Student      Software Developer Bassoonist
+        Student | Software Developer | Bassoonist
         </Typography>
 
     </Container>

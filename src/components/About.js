@@ -12,24 +12,17 @@ export default function About() {
     <Container maxWidth="md">
 
         <Typography variant='body1' sx={{ mt: 3, mb: 3 }} color="text.secondary">
-        Pro tip: See more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa   the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
+        I'm studying Electrical and Computer Engineering at The University of Texas at Austin and am an incoming 
+        Software Engineering Intern at Microsoft for this upcoming summer. I've most recently
+        worked as an Research and Development intern at Trend Micro.
+
         </Typography>
 
 
         <Typography paragraph={true} variant='body1' sx={{ mt: 3, mb: 3 }} color="text.secondary">
-        Pro tip: See more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
-        more stuff going on yes pleaseasfsfasffsa the MUI documentation.
+        
+        I enjoy creating great software and am interested in the fields of Data Science and AI development.
+        Some of my hobbies include performing in the University Orchestra and playing video games online with my close friends.
         </Typography>
 
     </Container>
