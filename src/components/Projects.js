@@ -6,11 +6,11 @@ import { Container } from '@mui/material';
 
 
 
-export default function About() {
+export default function Projects() {
   return (
 
     <Container maxWidth="md">
-        <Typography variant='h4' fontWeight = '500'>About Me</Typography>
+        <Typography variant='h4' fontWeight = '500'>Projects</Typography>
         <Typography variant='body1' sx={{ mt: 3, mb: 3 }} color="text.secondary">
         I'm studying Electrical and Computer Engineering at The University of Texas at Austin and am an incoming 
         Software Engineering Intern at Microsoft for this upcoming summer. I've most recently

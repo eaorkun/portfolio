@@ -7,7 +7,9 @@ import Link from '@mui/material/Link';
 import ProTip from './components/ProTip';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Experience from './components/Experience';
 import Name from './components/Name';
+import Projects from './components/Projects';
 
 function Copyright() {
   return (
@@ -40,11 +42,8 @@ export default function App() {
 
         <Name/>
         <About/>
-        <Box sx={{ my: 4 }}>    
-
-
-
-        </Box>
+        <Experience/>
+        <Projects/>
       </Container>
       <Container maxWidth="sm">
         <Signature />
